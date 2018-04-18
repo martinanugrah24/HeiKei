@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/tv_utama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:elevation="10dp"
+        android:text="@string/utama"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:fontFamily="@font/berlinsansdb"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_main"
+        app:layout_constraintStart_toStartOf="@+id/bt_main"
+        app:layout_constraintTop_toBottomOf="@+id/tv_main" />
+
+    <TextView
+        android:id="@+id/tv_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:text="@string/setelan"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:fontFamily="@font/berlinsansdb"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_settings"
+        app:layout_constraintStart_toStartOf="@+id/bt_settings"
+        app:layout_constraintTop_toTopOf="@+id/bt_settings" />
+
+    <Button
+        android:id="@+id/bt_settings"
+        android:layout_width="132dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#A7FCA7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_profile" />
+
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:text="@string/profil"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:fontFamily="@font/berlinsansdb"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_profile"
+        app:layout_constraintStart_toStartOf="@+id/bt_profile"
+        app:layout_constraintTop_toTopOf="@+id/bt_profile" />
+
+    <Button
+        android:id="@+id/bt_profile"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#A7FCA7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_main" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:elevation="10dp"
+        android:text="@string/selamat_datang_di"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/berlinsansdb"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heikei"
+        app:layout_constraintStart_toStartOf="@+id/tv_heikei"
+        app:layout_constraintTop_toTopOf="@+id/tv_heikei" />
+
+    <TextView
+        android:id="@+id/tv_heikei"
+        android:layout_width="316dp"
+        android:layout_height="166dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:background="#A7FCA7"
+        android:textColor="@android:color/background_dark"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_main"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#A7FCA7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_heikei" />
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="67dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:text="@string/menu"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:fontFamily="@font/berlinsansdb"
+        app:layout_constraintEnd_toEndOf="@+id/bt_main"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="@+id/bt_main"
+        app:layout_constraintTop_toTopOf="@+id/bt_main" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_settings"
+        app:layout_constraintEnd_toEndOf="@+id/bt_settings"
+        app:layout_constraintStart_toEndOf="@+id/tv_settings"
+        app:layout_constraintTop_toTopOf="@+id/bt_settings"
+        app:srcCompat="@drawable/gear" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/bt_profile"
+        app:layout_constraintStart_toEndOf="@+id/tv_profile"
+        app:layout_constraintTop_toTopOf="@+id/bt_profile"
+        app:srcCompat="@drawable/ppl2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tv_main"
+        app:layout_constraintTop_toTopOf="@+id/bt_main"
+        app:srcCompat="@drawable/menu3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="275dp"
+        android:layout_height="115dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heikei"
+        app:layout_constraintStart_toStartOf="@+id/tv_heikei"
+        app:layout_constraintTop_toTopOf="@+id/tv_heikei"
+        app:srcCompat="@drawable/logo2" />
+
+</android.support.constraint.ConstraintLayout>

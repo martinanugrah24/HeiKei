@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PesanActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:editable="false"
+            android:fontFamily="@font/berlinsans"
+            android:text="Kategori katering :\n\nPilihan tempat katering :\n\nPilihan hari berlangganan :\n\nPilihan paket berlangganan :"
+            android:textColor="#141414"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv1"
+            android:editable="false"
+            android:fontFamily="@font/berlinsans"
+            android:text="Vegetarian\n\nKatering A\n\n30 hari\n\n3500k"
+            android:textColor="#fff26f"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl2"
+        android:layout_below="@+id/rl1"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat pengiriman :"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"/>
+        <EditText
+            android:layout_below="@id/tv3"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:id="@+id/et1"
+            android:hint="Masukkan alamat pengiriman"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:background="#fff26f"/>
+        <TextView
+            android:layout_below="@id/et1"
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waktu pengiriman :"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"/>
+        <EditText
+            android:layout_below="@id/tv4"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:id="@+id/et2"
+            android:hint="Masukkan waktu pengiriman"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:background="#fff26f"/>
+        <TextView
+            android:layout_below="@id/et2"
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSAKSI"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:layout_below="@id/tv5"
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total :"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:layout_below="@id/tv5"
+            android:layout_toRightOf="@id/tv6"
+            android:layout_marginStart="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et3"
+            android:text="Rp120.000"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:background="#fff26f"/>
+        <TextView
+            android:layout_below="@id/tv6"
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bank :"
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_below="@id/tv6"
+            android:layout_toRightOf="@id/tv6"
+            android:layout_marginStart="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et4"
+            android:text="  Mandiri   "
+            android:fontFamily="@font/berlinsans"
+            android:textColor="#141414"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:background="#fff26f"
+            android:layout_marginTop="2dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl2"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_file"
+            android:fontFamily="@font/berlinsans"
+            android:onClick="btnPesan"
+            android:paddingEnd="55dp"
+            android:paddingStart="55dp"
+            android:text="PESAN"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

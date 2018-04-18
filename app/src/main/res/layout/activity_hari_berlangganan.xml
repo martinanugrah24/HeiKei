@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HariBerlanggananActivity">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berlinsans"
+            android:text="Kategori yang dipilih: "
+            android:textColor="#141414"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv1"
+            android:background="#a7fca7"
+            android:fontFamily="@font/berlinsans"
+            android:padding="6dp"
+            android:text="Program Vegetarian"
+            android:textColor="#141414"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/LL1"
+        android:id="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berlinsans"
+            android:text="Tempat katering:         "
+            android:textColor="#141414"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv1"
+            android:background="#a7fca7"
+            android:fontFamily="@font/berlinsans"
+            android:padding="6dp"
+            android:text="         Katering A        "
+            android:textColor="#141414"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/LL2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#a7fca7"
+        android:fontFamily="@font/berlinsans"
+        android:padding="3dp"
+        android:text="Pilih Hari Berlangganan"
+        android:textColor="#141414"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv5"
+        android:layout_centerHorizontal="true">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cb1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cb_color="#fff26f"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_margin="3dp"
+            android:onClick="btnHariBerlangganan"/>
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cb2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/cb1"
+            app:cb_color="#fff26f"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_margin="3dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

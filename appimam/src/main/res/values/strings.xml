@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HeiKei</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="masuk">masuk</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="sekali_pesan">Sekali Pesan</string>
+    <string name="program_diet">Program Diet</string>
+    <string name="ibu_hamil">Ibu Hamil</string>
+    <string name="pilihan_kategori_katering">Pilihan Kategori Katering</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="anak">Anak</string>
+    <string name="kategori_yang_dipilih">kategori yang dipilih :</string>
+    <string name="tempat_catering">tempat catering</string>
+    <string name="katering_10_a">katering A</string>
+    <string name="katering_10_b">katering B</string>
+    <string name="katering_10_c">katering C</string>
+    <string name="katering_10_d">katering D</string>
+    <string name="setelan">Setelan</string>
+    <string name="profil">Profil</string>
+    <string name="selamat_datang_di">Selamat datang di</string>
+    <string name="heikei">HeiKei</string>
+    <string name="menu_10_utama">Menu Utama</string>
+    <string name="menu_nutama">Menu Utama</string>
+    <string name="utama">Utama</string>
+    <string name="menu">Menu</string>
+    <string name="todo">TODO</string>
+    <string name="bulan_lahir">Bulan lahir</string>
+    <string name="tanggal_lahir">Tanggal lahir</string>
+    <string name="nama_belakang">Nama Belakang</string>
+    <string name="tahun_lahir">Tahun lahir</string>
+    <string name="email">Email</string>
+    <string name="nama_depan">Nama Depan</string>
+    <string name="registrasi">Registrasi</string>
+</resources>

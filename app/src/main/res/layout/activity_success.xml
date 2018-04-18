@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SuccessActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl1">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berlinsans"
+            android:text="BERHASIL\nMEMESAN!"
+            android:textColor="#141414"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berlinsans"
+            android:text="Akan segera kami proses"
+            android:textColor="#141414"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/button_file"
+        android:fontFamily="@font/berlinsans"
+        android:onClick="btnSuccess"
+        android:paddingEnd="45dp"
+        android:paddingStart="45dp"
+        android:text="MENU UTAMA"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+
+</RelativeLayout>

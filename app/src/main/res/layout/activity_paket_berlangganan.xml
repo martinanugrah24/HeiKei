@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PaketBerlanggananActivity">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berlinsans"
+            android:text="Pilihan hari berlangganan: "
+            android:textColor="#141414"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv1"
+            android:background="#a7fca7"
+            android:fontFamily="@font/berlinsans"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:text="30 hari"
+            android:textColor="#141414"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/LL1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#fff26f"
+        android:fontFamily="@font/berlinsans"
+        android:padding="3dp"
+        android:text="Pilihan Paket Berlangganan"
+        android:textColor="#141414"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cb1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cb_color="#a7fca7"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_margin="10dp"
+            />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cb2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@id/cb1"
+            app:cb_color="#a7fca7"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_margin="10dp"/>
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cb3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/cb1"
+            app:cb_color="#a7fca7"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_margin="10dp"/>
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cb4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/cb1"
+            android:layout_toRightOf="@id/cb3"
+            app:cb_color="#a7fca7"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_margin="10dp"
+            android:onClick="btnPaketBerlangganan"/>
+    </RelativeLayout>
+
+</RelativeLayout>

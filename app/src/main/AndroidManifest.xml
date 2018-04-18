@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myproject.anonymous_m.heikei">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HariBerlanggananActivity" />
+        <activity android:name=".PaketBerlanggananActivity" />
+        <activity android:name=".RincianHargaActivity" />
+        <activity android:name=".PesanActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".TempatKateringActivity" />
+        <activity android:name=".NextActivity"></activity>
+    </application>
+
+</manifest>
